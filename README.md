@@ -73,7 +73,10 @@ An executable Jupyter notebook with research-grade visualizations:
 python3 --version
 
 # Install required packages
-pip install jupyter numpy matplotlib seaborn
+pip install jupyter numpy matplotlib
+
+# Optional: For older matplotlib versions, install seaborn for plot styling
+# pip install seaborn
 ```
 
 ### Running the Notebook
